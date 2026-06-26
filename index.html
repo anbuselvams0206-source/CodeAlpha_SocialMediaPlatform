@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>CodeAlpha Social Media</h1>
+
+<div class="profile">
+<h2>User Profile</h2>
+<p>Name: Anbu</p>
+<button onclick="follow()">Follow</button>
+<p id="followers">Followers: 0</p>
+</div>
+
+
+<div class="post-box">
+<h2>Create Post</h2>
+<input id="postText" placeholder="Write something...">
+<button onclick="addPost()">Post</button>
+</div>
+
+
+<div id="posts">
+
+<div class="post">
+<h3>Anbu</h3>
+<p>Welcome to my social media app 🚀</p>
+
+<button onclick="like(this)">Like</button>
+<span>0</span>
+
+<br><br>
+
+<input placeholder="Comment">
+<button onclick="comment(this)">Comment</button>
+
+<div class="comments"></div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
