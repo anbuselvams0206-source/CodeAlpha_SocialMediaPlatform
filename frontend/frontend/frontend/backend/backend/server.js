@@ -7,6 +7,12 @@ app.use(cors());
 app.use(express.json());
 
 
+// Post routes
+const postRoutes = require("./routes/posts");
+
+app.use("/posts", postRoutes);
+
+
 app.get("/", (req,res)=>{
     res.send("Social Media API Running");
 });
