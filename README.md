@@ -1,6 +1,6 @@
 # CodeAlpha Social Media Platform
 
-A mini social media web application.
+Mini social media application.
 
 ## Features
 - User profiles
@@ -13,6 +13,8 @@ A mini social media web application.
 - HTML
 - CSS
 - JavaScript
+- Express.js
+- MongoDB
 
-## How to Run
-Open index.html in browser
+## Project Structure
+Frontend + Backend application
